@@ -2,7 +2,7 @@ require 'pp'
 require 'set'
 
 module Composite
-  def show_tree # show the recursive structure
+  def show_tree # shows the recursive structure
     indent
     puts self.class.to_s
     each do |elt|
